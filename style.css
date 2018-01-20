@@ -1,0 +1,36 @@
+body{
+	margin: 70px 100px;
+	background-color: #FFFFFF;
+	color: #191970;
+}
+.body{
+	background-color: #CCCCCC;
+	padding: 50px;
+	box-shadow: 20px 20px 30px grey;
+}
+
+.cvimg{
+	border-radius: 50%;
+	margin-bottom: 70px; 
+	width: 135px;
+	height: 190px;
+	float: right;
+	padding: 0px 100px;
+	-webkit-animation: mymove 6s 1; /* Chrome, Safari, Opera */
+    
+}
+@-webkit-keyframes mymove {
+    70% {border-radius:  50px 50px 50px 50px;}
+}
+
+
+hr{
+	border-top: 3px double #8c8b8b;
+	border-color: #191970;
+}
+
+tr td{
+	padding-right: 150px;
+}
+
+
